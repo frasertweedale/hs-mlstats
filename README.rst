@@ -41,3 +41,10 @@ Example (with output)
   2015-05-06 44 18 13
   2015-05-07 34 11 11
   2015-05-08 15 3 6
+
+The output columns, from left to right, are:
+
+0. Date (UTC)
+1. Message count
+2. Message count excluding message from ``exclude-domain``
+3. Active thread count
