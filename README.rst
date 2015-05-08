@@ -24,9 +24,20 @@ Usage
   Number of days of statistics to print, up to the current day.
 
 
-Example
--------
+Example (with output)
+---------------------
 
 ::
 
-  mlstats ~/mail freeipa-users@redhat.com redhat.com 60
+  % mlstats ~/mail freeipa-users@redhat.com redhat.com 10
+  2015-04-28 29 11 13
+  2015-04-29 37 1 9
+  2015-04-30 43 13 9
+  2015-05-01 11 1 3
+  2015-05-02 10 8 6
+  2015-05-03 4 2 3
+  2015-05-04 20 11 10
+  2015-05-05 27 19 10
+  2015-05-06 44 18 13
+  2015-05-07 34 11 11
+  2015-05-08 15 3 6
