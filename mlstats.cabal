@@ -22,7 +22,7 @@ executable mlstats
   -- other-modules:       
   -- other-extensions:    
   build-depends:
-    base >=4.6 && <5
+    base >= 4.8 && <5
     , time >= 1.4
     , notmuch
 
