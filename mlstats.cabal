@@ -25,3 +25,5 @@ executable mlstats
     base >=4.6 && <5
     , time >= 1.4
     , notmuch
+
+  ghc-options: -Wall
